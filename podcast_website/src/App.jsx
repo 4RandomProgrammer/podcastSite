@@ -25,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <h2 className='text-5xl p-4'>Últimos 5 episódios:</h2>
       <CardPlayer number={1}/>
     </div>
   )
