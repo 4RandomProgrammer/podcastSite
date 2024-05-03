@@ -11,16 +11,6 @@ function App() {
   ]
 
   useEffect ( () => {
-    const script = document.createElement('script')
-
-    script.src = "https://open.spotify.com/embed/iframe-api/v1"
-    script.async = true
-    
-    document.body.appendChild(script)
-
-  }, []);
-
-  useEffect ( () => {
     window.onSpotifyIframeApiReady = (IFrameAPI) => {
       const element = document.getElementById('embed-iframe-1');
       const options = {
@@ -33,7 +23,10 @@ function App() {
 
 
   return (
+    <div className="App">
+      <Navbar/>
       <CardPlayer number={1}/>
+    </div>
   )
 }
 
