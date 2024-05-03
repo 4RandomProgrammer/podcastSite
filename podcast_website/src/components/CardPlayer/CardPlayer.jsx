@@ -1,6 +1,6 @@
 
-const CardPlayer = () => (
-    <div id="embed-iframe"></div>
+const CardPlayer = ({number}) => (
+    <div id={"embed-iframe-"+number}></div>
 )
 
 

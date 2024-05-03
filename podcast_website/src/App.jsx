@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import CardPlayer from './components/CardPlayer/CardPlayer';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
 
   const episodes = [
     'spotify:episode:0XGBddxZwbs8C9howkLwoY',
-    
+
   ]
 
   useEffect ( () => {
@@ -23,7 +22,7 @@ function App() {
 
   useEffect ( () => {
     window.onSpotifyIframeApiReady = (IFrameAPI) => {
-      const element = document.getElementById('embed-iframe');
+      const element = document.getElementById('embed-iframe-1');
       const options = {
           uri: 'spotify:episode:0XGBddxZwbs8C9howkLwoY'
         };
@@ -34,7 +33,7 @@ function App() {
 
 
   return (
-    <CardPlayer/>
+      <CardPlayer number={1}/>
   )
 }
 
