@@ -25,7 +25,11 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <h2 className='text-5xl p-4'>Últimos 5 episódios:</h2>
+      <section>
+        <h1>Um podcast de Jovens</h1>
+        <h1>para jovens</h1>
+      </section>
+      <h2 className='text-5xl p-4'>Confira os últimos 5 episódios:</h2>
       <CardPlayer number={1}/>
     </div>
   )
