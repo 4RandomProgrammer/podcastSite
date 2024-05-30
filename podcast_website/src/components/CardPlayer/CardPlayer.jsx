@@ -1,7 +1,9 @@
 
-const CardPlayer = ({number}) => (
-    <div id={"embed-iframe-"+number}></div>
-)
+const CardPlayer = ({number}) => {
+
+    return (<div id={`embed-iframe-${number}`}></div>)
+    
+}  
 
 
 export default CardPlayer;
