@@ -32,7 +32,7 @@ function App() {
         </div>
 
         <div className='flex justify-end'>
-            <img className="w-1/2 justify-end rounded-md mr-10" src="src/assets/1000x1000.jpg" alt="" srcset="" />
+            <img className="w-1/2 justify-end rounded-md mr-12" src="src/assets/1000x1000.jpg" alt="" srcset="" />
           
             <div className='bg-gray-300 w-[500px] h-[500px] absolute top-32 right-10 -z-10 rounded-md'></div>
           
