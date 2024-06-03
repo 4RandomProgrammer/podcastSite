@@ -1,4 +1,4 @@
-import CardPlayer from "../CardPlayer/CardPlayer";
+
 import { useEffect, useState } from 'react'
 
 

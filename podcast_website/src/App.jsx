@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import CardPlayer from './components/CardPlayer/CardPlayer';
 import Navbar from './components/Navbar/Navbar';
 import EpisodeController from './components/EpisodesControler/EpisodeController';
 
