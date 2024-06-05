@@ -2,17 +2,11 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
 import EpisodeController from './components/EpisodesControler/EpisodeController';
-import { FaInstagram, FaYoutube } from "react-icons/fa";
-import { BsFillTelephoneInboundFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
+
+import Footer from './components/Footer/Footer';
 
 
 function App() {
-
-  const episodes = [
-    'spotify:episode:0XGBddxZwbs8C9howkLwoY',
-
-  ]
 
   // useEffect ( () => {
   //   window.onSpotifyIframeApiReady = (IFrameAPI) => {
@@ -51,25 +45,7 @@ function App() {
       <section>
         <h3 className='text-5xl'>Quem somos nós?</h3>
       </section>
-      <footer className='bg-yellow-400'>
-        <p>Se tudo passa, o que fica?</p>
-        <p>Já se perguntou sobre o verdadeiro sentido da vida? Será que ela é realmente passageira? Somos um grupo de jovens questiionadores que busca as respostas para essas perguntas! Entre nesse bate papo diferente com pessoas que investigam os mistérios da vida e  procuram aprender e se aperfeiçoar. Estes estudantes de logosofia se propõem a extrair o verdadeiro valor das experiências do dia a dia. Afinal, se tudo passa, o que fica?</p>
-        <div>
-        <ul>
-          <li>Redes Sociais</li>
-          <li><FaInstagram /><a href="https://www.instagram.com/setudopassaoquefica/" target="_blank" rel="noopener noreferrer">@setudopassaoqfica</a></li>
-          <li><FaYoutube /><a href="https://www.youtube.com/@setudopassaoquefica2934" target="_blank" rel="noopener noreferrer">setudopassaoquefica</a></li>
-        </ul>
-        </div>
-        <div>
-          <ul>
-            <li>Contato</li>
-            <li><MdEmail />teste@teste.com</li>
-            <li><FaHome />Rua Mundo Transcendente, 1960</li>
-            <li><BsFillTelephoneInboundFill />(11) 11111-1111</li>
-          </ul>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   )
 }
