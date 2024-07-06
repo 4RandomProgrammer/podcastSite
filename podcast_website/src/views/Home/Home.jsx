@@ -25,7 +25,7 @@ const Home = () => {
 
             <section className='p-10'>
                 <h2 className='text-5xl p-4'>Confira os últimos 5 episódios:</h2>
-                <EpisodeController numberOfEpisodes={5}/>
+                <EpisodeController numberOfEpisodes={5} Episodekey={'Home'}/>
                 <h3 className='text-3xl text-center'>Gostou desses episódios? Confira outros <a href="#">aqui</a></h3>
             </section>
             <section className='p-16'>

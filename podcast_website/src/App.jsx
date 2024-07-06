@@ -27,8 +27,6 @@ function App() {
     else {
       setContent(<Videos/>)
     }
-
-    console.log(content)
   }, [viewedPage])
 
   return (
